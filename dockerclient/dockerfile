@@ -1,0 +1,7 @@
+FROM microsoft/nanoserver
+
+COPY ./bin/Debug/netcoreapp2.0/win-x64/publish /app
+
+ENTRYPOINT /app/dockerclient.exe
+
+EXPOSE 8080
