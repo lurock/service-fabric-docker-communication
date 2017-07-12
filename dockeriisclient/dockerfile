@@ -1,6 +1,0 @@
-FROM nanoserver/iis-php
-
-COPY ./index.php /inetpub/wwwroot/index.php
-COPY ./test.php /inetpub/wwwroot/test.php
-
-CMD ping -t localhost

@@ -29,8 +29,6 @@
   <ItemGroup>
     <Content Include="ApplicationPackageRoot\DockerClientServicePkg\Config\Settings.xml" />
     <Content Include="ApplicationPackageRoot\DockerClientServicePkg\ServiceManifest.xml" />
-    <Content Include="ApplicationPackageRoot\DockerIisClientServicePkg\Config\Settings.xml" />
-    <Content Include="ApplicationPackageRoot\DockerIisClientServicePkg\ServiceManifest.xml" />
     <Content Include="ApplicationPackageRoot\DockerServerServicePkg\Config\Settings.xml" />
     <Content Include="ApplicationPackageRoot\DockerServerServicePkg\ServiceManifest.xml" />
     <Content Include="packages.config" />
